@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="Specialized Web Development for Specialized Industries">
+    <meta name="Najema Design" content="">
+    <link rel="icon" href="assets/favicon.ico">
+    <title>Najema Design</title>
+    <link href="assets/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/custom.css" rel="stylesheet">
+    
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      	<div class="container">
+        	<img id="logo" src="assets/njm.png" />
+        	<div class="navbar-header">
+        	</div>
+    	</div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Najema Design</h1>
+        <h2>Under Construction</h2>
+        <p>Specialized Web Development for Specialized Industries</p>
+      </div>
+    </div>
+	<div class="container">
+		<a class="btn btn-primary btn-block" id="wordpress" href="https://najemadesign.wordpress.com/">Check out our WordPress Blog about the development of this website.</a>
+        <%= yield %>
+        <% if flash[:notice] %>
+			<%= flash[:notice] %>
+		<% end %>
+    <div class="row">
+        
+        <div class="col-md-4">  
+        </div>
+        <div class="col-md-4">   	
+		</div>
+        <div class="col-md-4">
+        </div>
+    </div>
+      <hr>
+      <footer class="footer">
+        <p>&copy; Najema Design 2015</p>
+      </footer>
+    </div> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   </body>
+</html>
+
